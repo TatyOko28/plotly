@@ -51,7 +51,7 @@ By default, `ggplotly()` tries to replicate the static ggplot2 version
 exactly (before any interaction occurs), but sometimes you need greater
 control over the interactive behavior. The `ggplotly()` function itself
 has some convenient “high-level” arguments, such as `dynamicTicks`,
-which tells plotly.js to dynamically recompute axes, when appropriate.
+which tells plotly.js to dynamically recompute axes, when appropriate
 The `style()` function also comes in handy for *modifying* the
 underlying trace
 attributes (e.g. [hoveron](https://plotly.com/r/reference/#scatter-hoveron)) used to generate the plot:
